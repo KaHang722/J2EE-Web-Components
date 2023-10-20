@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Evaluation 2</title>
+<style>
+	body {
+		background-color: hsl(64, 90%, 88%);
+		}
+	textarea{
+		height:150px;
+		width:400px;
+		}
+</style>
+</head>
+<body>
+	<form action="submit-feedback.php" method="post">
+		<label for="email">Your Email*:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="date">Date of Visit:</label>
+		<input type="date" id="date" name="date" required><br><br>
+		
+		<label for="comment">Your Comment:</label><br>
+		<textarea id="comment" name="comment" required></textarea><br><br>
+		
+		<input type="submit" value="Send your Feedback">
+	</
