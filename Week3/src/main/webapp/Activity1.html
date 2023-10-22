@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="FormProcessor" method="get">
+		<fieldset>
+		<legend>Enter your information in the form below:</legend>
+		
+		Name: <input type="text" name="fname"><br><br>
+		
+		Email Address: <input type="email" name="email"><br><br>
+		
+		Gender: <input type="radio" name="gender" value="Male">Male
+  				<input type="radio" name="gender" value="Female">Female<br><br>
+
+		Age: <select name="age">
+				<option value="Under 30">Under 30</option>
+				<option value="Under 20">Under 20</option>
+				<option value="Under 40">Under 40</option>
+			 </select><br><br>
+			 
+		Comments: <textarea id="comments" name="comments" rows="4" cols="10"></textarea><br><br>
+		
+		Would you like to use meal plan?<br>
+		<input type="checkbox" name="meal" value="Breakfast">Breakfast<br>
+		<input type="checkbox" name="meal" value="Lunch">Lunch<br>
+		<input type="checkbox" name="meal" value="Dinner">Dinner<br>
+		
+		<input type="submit" value="Submit my Information">
+		
+		</fieldset>
+	</form>
+</body>
+</html>
