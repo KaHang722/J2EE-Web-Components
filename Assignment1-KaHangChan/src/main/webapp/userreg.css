@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+table {
+    background-color:rgb(203, 201, 241);
+  }
+  h2, h6 {
+    text-align: center;
+  }
+  td{
+    border: 1px solid white;
+  }
+  #lastname-td, #zip-td, #pw-td {
+    width:150px;
+  }
+  #zip-code {
+    width:50px;
+  }
+  #last-name, #first-name {
+    width:120px;
+  }
+  #username, #password, #confirm-password {
+    width:80px;
+  }

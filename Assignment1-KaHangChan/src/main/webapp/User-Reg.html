@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Assignment 1</title>
+<link rel="stylesheet" href="userreg.css">
+</head>
+<body>
+  <form action="UserProcess" method="post">
+    <table>
+      <tr>
+        <td colspan="2">
+          <h2>USER REGISTRATION</h2>
+          <h6>*Required Field</h6>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="first-name">First Name*</label><br>
+          <input type="text" id="first-name" name="fname">
+        </td>
+        <td id="lastname-td">
+          <label for="last-name">Last Name*</label><br>
+          <input type="text" id="last-name" name="lname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">E-Mail*</label><br>
+          <input type="email" id="email" name="email">
+        </td>
+        <td id="zip-td">
+          <label for="zip-code">Zip Code*</label><br>
+          <input type="text" id="zip-code" name="zip">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="username">User Name*</label><br>
+          <input type="text" id="username" name="username">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password*</label><br>
+          <input type="password" id="password" name="password">
+        </td>
+        <td id="pw-td">
+          <label for="confirm-password">Confirm Password*</label><br>
+          <input type="password" id="confirm-password" name="confirmpw">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="music-interest">What music are you interested in?</label><br>
+          <input type="checkbox" id="rock" name="music" value="rock">
+          <label for="rock">Rock</label>
+          <input type="checkbox" id="pop" name="music" value="pop">
+          <label for="pop">Pop</label>
+          <input type="checkbox" id="bluegrass" name="music" value="bluegrass">
+          <label for="bluegrass">Bluegrass</label><br>
+          <input type="checkbox" id="blues" name="music" value="blues">
+          <label for="blues">Blues</label>
+          <input type="checkbox" id="jazz" name="music" value="jazz">
+          <label for="jazz">Jazz</label>
+          <input type="checkbox" id="country" name="music" value="country">
+          <label for="country">Country</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="email-notifications">Would you like to receive email notifications on our special sales?</label><br>
+          <input type="radio" id="yes" name="notifications" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="notifications" value="no">
+          <label for="no">No</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
