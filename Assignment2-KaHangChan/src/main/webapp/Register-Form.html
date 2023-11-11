@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>Register Form</title>
+</head>
+<body>
+<div class="container">
+	<form action="InsertFormRecords" method="Post">
+		<div class="form-group">
+			Emp Number: <input type="text" name="empNo" class="form-control">
+		</div>
+		<div class="form-group">
+			Emp Name: <input type="text" name="empName" class="form-control">
+		</div>
+		<div class="form-group">
+			Job Title:<select name=jobTitle class="form-control">
+						<option value="Programmer">Programmer</option>
+						<option value="Analyst">Analyst</option>
+						<option value="Assistant">Assistant</option>
+		  		  	  </select><br><br>
+	    </div>
+		<div class="form-group">
+			Department: <input type="radio" name="department" value="IT">IT
+  						<input type="radio" name="department" value="Financial">Financial
+						<input type="radio" name="department" value="Sale">Sale
+		</div>
+		<div class="form-group">
+			<input type="submit" value="Register" class=" btn btn-primary">
+		</div>
+	</form>
+</div>
+</body>
+</html>
